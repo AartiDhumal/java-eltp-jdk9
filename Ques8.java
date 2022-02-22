@@ -4,7 +4,7 @@ abstract class concat<T>{
 }
 public class Ques8 {
     public static void main(String[] args) {
-        concat<String> obj_c=new concat<>() {
+        concat<String> obj_c=new concat<String>() {
             @Override
             String join2(String str, String str1) {
                 return str.concat(str1);
